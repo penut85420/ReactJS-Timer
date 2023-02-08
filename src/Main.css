@@ -1,0 +1,26 @@
+body {
+  background-color: transparent;
+  color: #111;
+  font: 24px "Noto Sans Mono CJK TC";
+  font-weight: 1000;
+  letter-spacing: 2px;
+  position: absolute;
+  text-shadow:
+    -1px -1px 0px #DDD,
+    0px -1px 0px #DDD,
+    1px -1px 0px #DDD,
+    -1px 0px 0px #DDD,
+    1px 0px 0px #DDD,
+    -1px 1px 0px #DDD,
+    0px 1px 0px #DDD,
+    1px 1px 0px #DDD;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#timer_root {
+  text-align: center;
+}
